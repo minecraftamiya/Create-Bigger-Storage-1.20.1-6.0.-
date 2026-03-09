@@ -1,3 +1,16 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="create_bs"
+version="1.1.0-1.21.1"
+displayName="Create Better Storages"
+authors="LopyLuna"
+description='''
+Adds tiered item vaults to Create.
+'''
+
 [[dependencies.create_bs]]
 modId="minecraft"
 type="required"
@@ -8,7 +21,7 @@ side="BOTH"
 [[dependencies.create_bs]]
 modId="neoforge"
 type="required"
-versionRange="[21.1,)"
+versionRange="[21.1.125,)"
 ordering="NONE"
 side="BOTH"
 
